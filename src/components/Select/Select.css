@@ -1,0 +1,48 @@
+.Custom-select {
+  width: 400px;
+  font-family: var(--font-famili);
+}
+
+.Select-header {
+  padding: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: white;
+}
+
+.Dropdown {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: white;
+  z-index: 1000;
+  margin-top: 4px;
+}
+
+.Dropdown-input {
+  width: 100%;
+  padding: 8px 0px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.Dropdown-input::placeholder {
+  color: white;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.Options-list {
+  max-height: 400px;
+  overflow-y: auto;
+  list-style-type: none;
+  padding: 0;
+}
+
+.Option-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.Option-item:hover {
+  background-color: #f0f0f0;
+}

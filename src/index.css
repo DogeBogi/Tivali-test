@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Montserrat+Alternates:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: var(--font-famili), sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  color-scheme: light dark;
+  color: black;
+  background-color: #FFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --font-famili : 'Golos Text';
+  --second-font-family: 'Montserrat Alternates';
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: var(--second-font-family);
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: all 0.25s linear;
+}
+button:hover {
+  background-color: grey;
+}
