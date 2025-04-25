@@ -1,9 +1,21 @@
-How to start project
+## Getting Started
 
-1-Download that
+These instructions will help you get a copy of the project up and running on your local machine.
 
-next in root directory with CLI 
+### Prerequisites
 
-2-npm install
+- Node.js (version 18 or higher)
+- npm (usually comes with Node.js)
 
-3-npm run dev
+### Installation 📦
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/DogeBogi/Tivali-test.git
+   
+2. **Navigate to project directory
+
+3. **Install dependencies
+    npm install
+4. **Running the Project ▶️
+   Start the development server:
+   npm run dev
