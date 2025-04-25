@@ -12,10 +12,12 @@ These instructions will help you get a copy of the project up and running on you
    ```bash
    git clone https://github.com/DogeBogi/Tivali-test.git
    
-2. **Navigate to project directory
+2. Navigate to project directory
 
-3. **Install dependencies
+3. Install dependencies
     npm install
-4. **Running the Project ▶️
+   
+4. Running the Project ▶️
    Start the development server:
+   
    npm run dev
